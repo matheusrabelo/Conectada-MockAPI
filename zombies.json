@@ -1,6 +1,5 @@
 [
     {
-        "port": 8080,
         "routes": [
             {
                 "path": "/api/home",
