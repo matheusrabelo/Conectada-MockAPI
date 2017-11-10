@@ -16,4 +16,5 @@ zombie.routes.forEach(route => {
     app[method](route.path, handler);
 });
 
+app.use('*', (req, res) => res.status(404).json([]));
 app.listen(port, console.log('Zombie ' + port + ' is walking'));
