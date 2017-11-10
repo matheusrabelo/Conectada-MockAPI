@@ -1,0 +1,167 @@
+[
+    {
+        "port": 8080,
+        "routes": [
+            {
+                "path": "/api/home",
+                "method": "GET",
+                "response": {
+                    "status": "200",
+                    "header": {
+                        "Content-Type": "application/json",
+                        "Access-Control-Allow-Origin": "*"
+                    },
+                    "body": [
+                        {
+                            "id": 100,
+                            "feedType": 5,
+                            "name": "Reitor",
+                            "description": "Posição da universidade sobre aulas extracurriculares durante as férias"
+                        },
+                        {
+                            "id": 101,
+                            "image": "https://images.unsplash.com/photo-1462826303086-329426d1aef5?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=",
+                            "feedType": 0,
+                            "name": "Nome da empresa",
+                            "description": "Procuramos estagiário em várias áreas"
+                        },
+                        {
+                            "id": 102,
+                            "image": "https://images.unsplash.com/photo-1497842917774-583c63a4ce6b?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=",
+                            "feedType": 2,
+                            "name": "Nome do restaurante",
+                            "description": "Incrível prato especial na terça-feira"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "/api/events",
+                "method": "GET",
+                "response": {
+                    "status": "200",
+                    "header": {
+                        "Content-Type": "application/json",
+                        "Access-Control-Allow-Origin": "*"
+                    },
+                    "body": [
+                        {
+                            "id": 21,
+                            "eventType": 2,
+                            "title": "Evento 21",
+                            "description": "Descrição do evento 21",
+                            "date": "2017-01-21",
+                            "latitude": -22.861614,
+                            "longitude": -43.225016
+                        },
+                        {
+                            "id": 22,
+                            "eventType": 1,
+                            "title": "Evento 22",
+                            "description": "Descrição do evento 22",
+                            "date": "2017-01-22",
+                            "latitude": -22.862278,
+                            "longitude": -43.224459
+                        },
+                        {
+                            "id": 23,
+                            "eventType": 1,
+                            "title": "Evento 23",
+                            "description": "Descrição do evento 23",
+                            "date": "2017-01-23",
+                            "latitude": -22.859841,
+                            "longitude": -43.231535
+                        },
+                        {
+                            "id": 24,
+                            "eventType": 1,
+                            "title": "Evento 24",
+                            "description": "Descrição do evento 24",
+                            "date": "2017-01-24",
+                            "latitude": -22.860197,
+                            "longitude": -43.230376
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "/api/opportunities",
+                "method": "GET",
+                "response": {
+                    "status": "200",
+                    "header": {
+                        "Content-Type": "application/json",
+                        "Access-Control-Allow-Origin": "*"
+                    },
+                    "body": [
+                        {
+                            "id": 50,
+                            "opportunityType": 1,
+                            "title": "Desenvolvedor Front-end",
+                            "description": "Procuramos desenvolvedor front-end na empresa X"
+                        },
+                        {
+                            "id": 51,
+                            "opportunityType": 1,
+                            "title": "Scrum master",
+                            "description": "Procuramos scrum master na empresaY"
+                        },
+                        {
+                            "id": 52,
+                            "opportunityType": 1,
+                            "title": "Vaga de estágio para advogado",
+                            "description": "Temos 5 vagas abertas"
+                        },
+                        {
+                            "id": 52,
+                            "opportunityType": 1,
+                            "title": "Desenvolvedor UX",
+                            "description": "Temos 5 vagas abertas"
+                        },
+                        {
+                            "id": 52,
+                            "opportunityType": 1,
+                            "title": "Consultoria de marketing",
+                            "description": "Procuramos interessados"
+                        },
+                        {
+                            "id": 52,
+                            "opportunityType": 2,
+                            "title": "Estágio em área de Big Data",
+                            "description": "Temos 2 vagas abertas na universidade Z"
+                        }
+                    ]
+                }
+            },
+            {
+                "path": "/api/restaurants",
+                "method": "GET",
+                "response": {
+                    "status": "200",
+                    "header": {
+                        "Content-Type": "application/json",
+                        "Access-Control-Allow-Origin": "*"
+                    },
+                    "body": [
+                        {
+                            "id": 77,
+                            "restaurantType": 1,
+                            "title": "Restaurante 1",
+                            "description": "Descrição do restaurante 1",
+                            "latitude": -22.860775,
+                            "longitude": -43.228433
+                        },
+                        {
+                            "id": 78,
+                            "restaurantType": 2,
+                            "title": "Restaurante 2",
+                            "description": "Descrição do restaurante 2",
+                            "latitude": -22.859693,
+                            "longitude": -43.229454
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "conectada-mockapi",
+  "version": "1.0.0",
+  "description": "conectada mock api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrabelo/ZombieMocking.git"
+  },
+  "keywords": [
+    "conectada",
+    "conectada.io",
+    "api",
+    "mocking",
+    "mock"
+  ],
+  "author": "Matheus Freire Rabelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusrabelo/ZombieMocking/issues"
+  },
+  "homepage": "https://github.com/matheusrabelo/ZombieMocking#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.9.0"
+  }
+}
