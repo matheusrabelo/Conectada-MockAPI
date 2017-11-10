@@ -8,6 +8,11 @@ Essa aplicação foi feita usando a lógica do [ZombieMocking](https://github.co
 Com ela, você será capaz de rodar, com dados não reais, o aplicativo em Ionic do projeto.
 Mantido no repositório [Conectada-App](https://github.com/matheusrabelo/Conectada-App)
 
+## API Url
+```
+https://conectada-mockapi.herokuapp.com/
+```
+
 ## Author
 Matheus Freire Rabelo
 
